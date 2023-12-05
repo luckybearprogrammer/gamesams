@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Привет, у меня есть две игры для тебя 1)камешки 2)угадай число");
+        System.out.println("Привет, у меня есть две игры для тебя 1)камушки 2) угадай число Остальные режимы будут позже :)");
         int rej = sc.nextInt();
         switch (rej) {
             case 1:
